@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: pav;
+  }
+  
+  @font-face {
+      font-family: pav;
+      src: url('American Captain.ttf');
+  }
+   body{
+    background:  rgb(227, 27, 238);
+
+   }
+
+.foods {
+    text-align: center;
+   
+}
+
+ul{
+    list-style: none;
+}
+.nov{
+  display: flex;
+  justify-content: space-around;
+}
+
+.js{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.foods li:hover{
+    color: rgb(252, 156, 247);
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+.veg {
+    font-size: 30px;
+}
+.nonveg {
+    font-size: 30px;
+}
+.sweets {
+    font-size: 30px;
+}
+.juices {
+    font-size: 30px;
+}
+.chaats {
+    font-size: 30px;
+}
+

@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: nit;
+   
+}
+
+@font-face {
+    font-family: nit;
+    src: url(American\ Captain.ttf);
+}
+
+body{
+    background: linear-gradient(to right, #f3bbf1, #f0a2ed);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    text-align: center; 
+  }
+  
+div h1{
+  font-size: 85px;
+  color: #b80a6c;
+}
+
+ h3{
+    font-size: 65px;
+    color: #b80a6c;
+}
+
+
+span{
+    color: #b80a6c;
+}
